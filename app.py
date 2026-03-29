@@ -79,6 +79,7 @@ def data_table(obj):
 
     style_table={
             'width': '100%',
+            'overflowX': 'auto',
             'minWidth': '100%',
             'marginLeft': 'auto',
             'marginRight': 'auto',
