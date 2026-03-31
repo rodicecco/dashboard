@@ -78,12 +78,11 @@ def data_table(obj):
         data=frame.to_dict('records'),
 
     style_table={
-            'width': '100%',
             'overflowX': 'auto',
-            'minWidth': '100%',
-            'marginLeft': 'auto',
-            'marginRight': 'auto',
+            'minWidth': '100%'
         },
+
+    fixed_columns={'headers': True, 'data': 1},
 
     # 1. Wrap the text and shrink font size for headers
     style_header={
